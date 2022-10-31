@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Small Coding Exercises Testing</title>
+		<script src="small-coding-exercises.js"></script>
+	</head>
+	<body>
+		<h1>Small Coding Exercises Testing Page</h1>
+		<section>
+			<h2>Delay Testing</h2>
+			<p>Click the buttons below to test the delay function.</p>
+			<button id="btnTestDelay" onclick="testDelay(1000)">Test Delay - 1s</button>
+			<button id="btnTestDelay" onclick="testDelay(3000)">Test Delay - 3s</button>
+			<p id="pDelayText"></p>
+		</section>
+		<section>
+			<h2>Animate Testing</h2>
+			<p id="pAnimateText">Click the button below to animate this paragraph.</p>
+			<button onclick="testAnimate()">Test Animate</button>
+		</section>
+		<section>
+			<h2>Remove Duplicates</h2>
+			<p>Click the buttons below to remove duplicates from an array.</p>
+			<button onclick="testRemoveDuplicates('int')">Test Remove Duplicates - Integers</button>
+			<button onclick="testRemoveDuplicates('string')">Test Remove Duplicates - Strings</button>
+			<p id="pBeforeArray"></p>
+			<p id="pAfterArray"></p>
+		</section>
+	</body>
+</html>
