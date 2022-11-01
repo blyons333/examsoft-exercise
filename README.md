@@ -1,0 +1,1 @@
+*See README files in the bigger-exercise and smaller-exercise directories for instructions for compiling and running each exercise.*
